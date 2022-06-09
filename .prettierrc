@@ -1,6 +1,8 @@
 {
-	"useTabs": true,
-	"singleQuote": true,
-	"trailingComma": "none",
-	"printWidth": 100
+	"singleQuote": false,
+	"semi": true,
+	"trailingComma": "all",
+	"arrowParens": "avoid",
+	"bracketSameLine": false,
+	"svelteSortOrder": "options-scripts-styles-markup"
 }

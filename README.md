@@ -1,18 +1,12 @@
-# create-svelte
+# SvelteKit Skeleton
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Just a super simple SvelteKit starter with TypeScript, Sass, Prettier and ESLint setup.
 
-## Creating a project
+Setup with `@sveltejs/adapter-auto` to enable easy deploys to Cloudflare Pages, Netlify and Vercel.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Using this skeleton
 
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
+Run `npx degit "git@github.com:kyleshepherd/svelte-kit-skeleton.git" my-app` to clone the starter.
 
 ## Developing
 

@@ -1,6 +1,6 @@
 # SvelteKit Skeleton
 
-Just a super simple SvelteKit starter with TypeScript, Sass, Prettier and ESLint setup.
+Just a super simple SvelteKit starter with TypeScript, TailwindCSS, Prettier and ESLint setup.
 
 Setup with `@sveltejs/adapter-auto` to enable easy deploys to Cloudflare Pages, Netlify and Vercel.
 

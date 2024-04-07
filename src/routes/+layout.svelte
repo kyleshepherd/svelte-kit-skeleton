@@ -1,5 +1,5 @@
 <script lang="ts">
-  import "../styles/global.scss";
+  import "../styles/global.css";
 </script>
 
 <main>

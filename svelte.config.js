@@ -1,16 +1,12 @@
 import adapter from "@sveltejs/adapter-auto";
 import autoprefixer from "autoprefixer";
-import { vitePreprocess } from "@sveltejs/kit/vite";
+import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   // Consult https://github.com/sveltejs/svelte-preprocess
   // for more information about preprocessors
   preprocess: vitePreprocess({
-    scss: {
-      includePaths: ["src"],
-      prependData: `@import 'src/styles/variables.scss';`,
-    },
     postcss: {
       plugins: [autoprefixer()],
     },

@@ -1,7 +1,9 @@
 {
 	"useTabs": true,
-	"singleQuote": true,
-	"trailingComma": "none",
+	"singleQuote": false,
+	"trailingComma": "all",
+	"arrowParens": "avoid",
+	"bracketSameLine": false,
 	"printWidth": 100,
 	"plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
 	"overrides": [
